@@ -23,7 +23,7 @@ const [board, setBoard] = useState({});
       .then((json) => setBoard(json));
   },[]);
 
-  const fdd = response.json();
+
 
   const [boards, setBoards] = useState({});
   useEffect(() => {
